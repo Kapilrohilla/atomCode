@@ -2,28 +2,47 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 1rem;
 }
 .logo{
-    font-size: 2rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-weight: 800;
 }
 .menu{
     display: none;
     padding-top: 0.5rem;
     z-index: 10;
 }
+.rotableMenu{
+    display: none;
+    align-items: center;
+    gap: 4px;
+    flex-direction: column;
+    z-index: 10;
+}
+.bar{
+    height: 0.1rem;
+    background-color: #000;
+    width: 20px;
+}
 .desktop-routes{
     display: flex;
-    gap: 1.3rem;
-    font-size: 1.1rem;
+    gap: 2.5rem;
+    font-size: 14px;
     align-items: center;
+    font-weight: 400;
 }
 .desktop-routes div button{
-    padding: 0.5rem 0.7rem;
+    padding: 0.6rem 0.7rem;
     background-color: rgb(241, 242, 244); 
-    font-size: 14px;
+    font-size: 0.9rem;
     border-radius: 4px;
     border: none;
     outline: none;
+    width: calc(initial + 10px);
 }
 .desktop-routes div button:hover{
     background-color: rgb(220,220,220);
@@ -37,9 +56,10 @@
     }
     .desktop-routes{
         z-index: 1;
-        padding-left: 10px;
-        padding-top: 80px;
-        padding-bottom: 10px;
+        gap: 2rem;
+        padding-left: 2rem;
+        padding-top: 5rem;
+        padding-bottom: 0.8rem;
         position: absolute;
         top: 0;
         right: 0px;
@@ -48,5 +68,8 @@
         align-items:baseline;
         height: max-content;
         box-shadow: 1px 5px 5px rgb(192, 192, 192);
+    }
+    .rotableMenu{
+        display: flex;
     }
 }
