@@ -7,14 +7,21 @@ export function NavBar() {
     const rotableMenuRef = useRef('');
     const handleMenuClick = () => {
         setDisplayMenuIcon(!dispayMenuIcon);
-        if(rotableMenuRef.current.children[0].style.rotate !== '-45deg'){
-            rotableMenuRef.current.children[0].style.rotate = '-45deg';
-            rotableMenuRef.current.children[1].style.rotate = '45deg';
+        if(rotableMenuRef.current.children[0].style.transform !== 'rotate(-40deg)'){
+            // rotation of icon
+            rotableMenuRef.current.children[0].style.transform = 'rotate(-40deg)';
+            rotableMenuRef.current.children[1].style.transform = 'rotate(40deg)';
+            // transition
+            rotableMenuRef.current.children[0].style.transition = '0.2s linear transform';
+            rotableMenuRef.current.children[1].style.transition = '0.2s linear transform';
+            
         }else{
-            rotableMenuRef.current.children[0].style.rotate = 'initial';
-            rotableMenuRef.current.children[1].style.rotate = 'initial';
+            // setting menu to it's initial state;
+            rotableMenuRef.current.children[0].style.transform = 'initial';
+            rotableMenuRef.current.children[1].style.transform = 'initial';
         }
     }
+    // ----- trying to change the shape of icon using useEffect -----
     // useEffect(()=>{
     //     if(dispayMenuIcon === undefined){
     //         // rotableMenuRef.current.children[0].style.rotate = '-45deg';
@@ -44,7 +51,7 @@ export function NavBar() {
                 <div className='bar'></div>
                 <div className='bar'></div>
             </div>
-            <div className={dispayMenuIcon?'desktop-routes':'hide desktop-routes'}>
+            <nav className={dispayMenuIcon?'desktop-routes':'hide desktop-routes'}>
                 <div>
                     <p>Features</p>
                 </div>
@@ -57,7 +64,7 @@ export function NavBar() {
                 <div>
                     <button>Documentation</button>
                 </div>
-            </div>
+            </nav>
         </div>
     )
 }
