@@ -1,5 +1,6 @@
 // import section
 import './App.css';
+import GetStarted from './component/GetStarted';
 import { NavBar } from './component/NavBar';
 
 
@@ -10,6 +11,9 @@ function App() {
       <header>
         <NavBar />
       </header>
+      <main>
+        <GetStarted />
+      </main>
     </div>
   );
 }

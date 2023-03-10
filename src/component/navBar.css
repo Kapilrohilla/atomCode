@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1rem;
+    padding-block: 1rem;
+    background-color: #fff;
 }
 .logo{
     font-size: 1.3rem;
@@ -34,6 +35,7 @@
     font-size: 14px;
     align-items: center;
     font-weight: 400;
+    color: rgb(80, 82, 86);
 }
 .desktop-routes div button{
     padding: 0.6rem 0.7rem;
