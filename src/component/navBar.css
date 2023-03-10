@@ -1,0 +1,52 @@
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+}
+.menu{
+    display: none;
+    padding-top: 0.5rem;
+    z-index: 10;
+}
+.desktop-routes{
+    display: flex;
+    gap: 1.3rem;
+    font-size: 1.1rem;
+    align-items: center;
+}
+.desktop-routes div button{
+    padding: 0.5rem 0.7rem;
+    background-color: rgb(241, 242, 244); 
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+.desktop-routes div button:hover{
+    background-color: rgb(220,220,220);
+}
+@media screen and (max-width: 600px){
+    .hide{
+        display: none;
+    }
+    .menu{
+        display: unset;
+    }
+    .desktop-routes{
+        z-index: 1;
+        padding-left: 10px;
+        padding-top: 80px;
+        padding-bottom: 10px;
+        position: absolute;
+        top: 0;
+        right: 0px;
+        flex-direction: column;
+        width: 100%;
+        align-items:baseline;
+        height: max-content;
+        box-shadow: 1px 5px 5px rgb(192, 192, 192);
+    }
+}
