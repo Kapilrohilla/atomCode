@@ -13,6 +13,7 @@ function App() {
       </header>
       <main>
         <GetStarted />
+        
       </main>
     </div>
   );

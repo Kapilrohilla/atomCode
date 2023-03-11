@@ -1,9 +1,9 @@
 #getStarted{
     text-align: center;
     margin: 0 auto;
-    margin-top: 100px;
-    width: 70%;
-    line-height: 30px;
+    padding-top: 100px;
+    max-width: 862px;
+    /* line-height: 30px; */
 }
 #getStarted h1{
     font-size: 3rem;
@@ -12,13 +12,14 @@
 }
 #getStarted p{
     color: rgb(80, 82, 86);
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
+    line-height: 30px;  
 }
 .btns{
     display: flex;
-    column-gap: 1rem;
+    gap: 1rem;
     justify-content: center;
 }
 .btn{
@@ -49,4 +50,27 @@
 }
 .btn img{
     display: inline;
+}
+
+@media screen and (max-width: 900px){
+    #getStarted{
+        padding-top: 20px;
+    }
+    #getStarted h1{
+        font-size: 2.5rem;
+    }
+    .btns{
+        font-size: 2.5rem;
+    }
+    #getStarted p{
+        width: unset;
+    }
+}
+@media screen and (max-width: 600px){
+    .btns{
+        flex-direction: column;
+    }
+    .btn{
+        width: 100%;
+    }
 }

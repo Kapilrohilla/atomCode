@@ -11,18 +11,19 @@
     align-items: center;
     gap: 2px;
     font-weight: 800;
+    z-index: 9999;
 }
 .menu{
     display: none;
     padding-top: 0.5rem;
-    z-index: 10;
+    z-index: 9999;
 }
 .rotableMenu{
     display: none;
     align-items: center;
     gap: 4px;
     flex-direction: column;
-    z-index: 10;
+    z-index: 9999;
 }
 .bar{
     height: 0.1rem;
@@ -36,6 +37,8 @@
     align-items: center;
     font-weight: 400;
     color: rgb(80, 82, 86);
+    z-index: 9998;
+    background-color: #fff;
 }
 .desktop-routes div button{
     padding: 0.6rem 0.7rem;
@@ -49,7 +52,7 @@
 .desktop-routes div button:hover{
     background-color: rgb(220,220,220);
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 650px){
     .hide{
         display: none;
     }
@@ -59,17 +62,14 @@
     .desktop-routes{
         z-index: 1;
         gap: 2rem;
-        padding-left: 2rem;
-        padding-top: 5rem;
-        padding-bottom: 0.8rem;
+        padding: 5rem 2rem 0.8rem 1rem;
         position: absolute;
         top: 0;
-        right: 0px;
         flex-direction: column;
         width: 100%;
         align-items:baseline;
         height: max-content;
-        box-shadow: 1px 5px 5px rgb(192, 192, 192);
+        box-shadow:  0 6px 4px -4px rgba(8, 11, 14, 0.06); 
     }
     .rotableMenu{
         display: flex;
