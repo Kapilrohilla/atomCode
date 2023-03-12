@@ -1,0 +1,108 @@
+#profileCss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0.7rem;
+    height: 5rem;
+    border-bottom: 1px solid rgba(2, 2, 3, 0.06);
+    box-shadow: rgba(8, 11, 14, 0.06) 0px 0px 1px 0px, rgba(8, 11, 14, 0.1) 0px 16px 16px -1px;
+    border-radius: 0.7rem;
+}
+
+.profileLeft{
+    display: flex;
+    gap: 20px;
+}
+.profileIcon{
+    height: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileIcon img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#plainProfile{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.7rem;
+    align-items: center;
+    border-radius: 4px;
+    margin-top: -4px;
+}
+.plainProfileLeft{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profileIcon2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/* for ProfileBox component in ProfileWrite.js file */
+#profileBox{
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items:  space-between;
+    flex-direction: column;
+    height: 100%;
+}
+.imageSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.3rem;
+}
+
+#profileBox .imageSection img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.imageSection h4{
+    font-weight: 500;
+    margin-bottom: 0.24rem;
+    font-weight: 500;
+}
+.imageSection p{
+    font-size: 0.8rem;
+    color: rgb(167, 170, 176);
+}
+
+.curvedBtn{
+    display: flex;
+    gap: 1.5rem;
+}
+.curvedBtn button{
+    display: flex;
+    align-items: center;
+    border-radius: 999px;    /* for perfect shape complete round */
+    border-radius: 1110px; 
+    width: calc(50% - 0.5rem);
+    height: 2.5rem;
+    justify-content: center;
+    gap: 8px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+
+.curvedBtn > button:first-of-type{
+    color: white;
+    background-color: rgb(16, 126, 229);
+}
+.curvedBtn > button:last-of-type{
+    border: 1px solid rgb(137, 140, 144);
+    background-color: transparent;
+    color: rgb(137, 140, 144);
+}
+.curvedBtn > button:last-of-type:hover{
+    border: 1px solid rgb(80, 82, 86);
+}

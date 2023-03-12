@@ -1,0 +1,15 @@
+
+.boxContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minMax(310px,1fr));
+    height: calc(400px + 6rem );
+    padding-top: 6rem;
+    gap: 2rem;
+    justify-items: center;
+}
+
+@media screen and (max-width: 650px) {
+    .boxContainer{
+        height: fit-content;
+    }
+}

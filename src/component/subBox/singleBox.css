@@ -1,0 +1,36 @@
+
+.singleBoxContainer{
+    max-width: 19.5rem;
+    max-height: 25rem;
+}
+
+.singleProfileBox{
+    width: 19.5rem;
+    height: 20rem;
+    border-top: rgba(8, 11, 14, 0.06) 1px solid;
+    box-shadow: rgba(8, 11, 14, 0.06) 0px 0px 1px 0px, rgba(8, 11, 14, 0.1) 0px 16px 16px -1px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#singleMiddleBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    max-width: 19.5rem;
+}
+.upperMiddleBox{
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: rgba(8, 11, 14, 0.06) 0px 0px 1px 0px, rgba(8, 11, 14, 0.1) 0px 16px 16px -1px
+}
+.upperMiddleBox img{
+    width: 100%;
+    object-fit: cover;
+}
