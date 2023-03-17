@@ -1,0 +1,21 @@
+.whyAtomizeGridChild{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    box-shadow: rgba(8, 11, 14, 0.06) 0px 0px 1px 0px, rgba(8, 11, 14, 0.1) 0px 6px 6px -1px;
+    border: 1px solid rgb(247, 248, 249);
+    height: 345px;
+}
+.whyAtomizeGridChild h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.whyAtomizeGridChild  > p{
+    font-size: 1rem;
+    color: rgb(80, 82, 86);
+    line-height: 2rem;  
+}
+.whyAtomizeGridChild p:last-of-type{
+    color: rgb(2, 109, 214);
+}

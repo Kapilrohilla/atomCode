@@ -1,0 +1,21 @@
+#key-features{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 10000px;
+    font-size: 0.8rem;
+}
+h3#key-features-heading{
+    font-size: 2rem;
+    font-weight: 400;
+}
+h3#key-features-heading , h3#key-features-heading + p {
+    margin-top: 30px;
+}
+#whyAtomizeGrid{
+    margin-top: 2rem;
+    display: grid;
+    column-gap: 1rem;
+    grid-template-columns: repeat(auto-fit,minMax(225px ,1fr));
+}
