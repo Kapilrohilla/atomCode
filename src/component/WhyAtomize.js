@@ -37,7 +37,7 @@ export default function WhyAtomize() {
             <div id="whyAtomizeGrid">
                 {
                     gridChild.map((obj)=>{
-                        return <WhyAtomizeGridChild id={obj.id} imgSrc={obj.imgSrc} heading={obj.heading} para={obj.paragraph} />
+                        return <WhyAtomizeGridChild key={obj.id} imgSrc={obj.imgSrc} heading={obj.heading} para={obj.paragraph} />
                     })
                 }
             </div>

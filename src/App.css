@@ -12,5 +12,18 @@ header{
 }
 #why-atomize{
     padding-block: 8rem;
-    
+    border-bottom: 1px solid rgb(241, 242, 244);
+}
+#reactUI{
+    display: grid;
+    padding-block: 8rem;
+    grid-template-columns: 40% 50%;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 999px){
+    #reactUI{
+        grid-template-columns: 1fr;
+    }
+   
 }

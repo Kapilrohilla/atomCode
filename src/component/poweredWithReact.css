@@ -1,0 +1,21 @@
+
+
+#p-w-r-heading{
+    font-size: 2.5rem;
+    text-align: left;
+    font-weight: 500;
+}
+#p-w-r-heading span{
+    color: #06d7ff;
+}
+#p-w-r-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+@media screen and (max-width: 600px){
+    #p-w-r-grid{
+        grid-template-columns: 1fr;
+    }
+}
