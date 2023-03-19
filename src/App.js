@@ -18,13 +18,13 @@ import WhyAtomize from './component/WhyAtomize';
 function App() {
   const screenWidth = useRef('');
   // ----- to hide the ReactDiagram component when width is less than 1000px
-  function hideReactDiagram(){
-    (window.outerWidth < 1000)?
+  function hideReactDiagram() {
+    (window.outerWidth < 1000) ?
       screenWidth.current.style.display = 'none'
-    : screenWidth.current.style.display = 'flex';
+      : screenWidth.current.style.display = 'flex';
   }
   useEffect(hideReactDiagram);
-  window.onresize = hideReactDiagram; 
+  window.onresize = hideReactDiagram;
   // -----
   const aboveUITemplateData = [
     {
@@ -53,7 +53,7 @@ function App() {
       <header>
         <NavBar />
       </header>
-      <main> 
+      <main>
         <section id="get-boxContainer">
           <GetStarted />
           <BoxContainer />
@@ -62,7 +62,7 @@ function App() {
           <WhyAtomize />
         </section>
         <section id="reactUI">
-          <ReactDiagram ref={screenWidth}/>
+          <ReactDiagram ref={screenWidth} />
           <PoweredWithReact />
         </section>
         <section id="code" className="generalSpacing">
@@ -78,9 +78,9 @@ function App() {
         </section>
         <section id="aboveUI-template-container" className='generalSpacing'>
           {
-          aboveUITemplateData.map((obj)=>{
-            return <AboveUITemplate boldCharacter={obj.boldChar} paragraph={obj.para} key={obj.id}/>
-          })
+            aboveUITemplateData.map((obj) => {
+              return <AboveUITemplate boldCharacter={obj.boldChar} paragraph={obj.para} key={obj.id} />
+            })
           }
         </section>
         <section id="uiTemplate">
