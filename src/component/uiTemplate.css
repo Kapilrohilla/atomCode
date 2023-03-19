@@ -1,0 +1,29 @@
+#uiTemplate-container{
+    background: rgb(247, 248, 249);
+    width: 100%;
+    padding: 3rem 4rem;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+#uiTemplate-container h3{
+    font-size: 30px;
+}
+#uiTemplate-container p{
+    color: rgb(80, 82, 86);
+}
+.uiTemplate-btn button{
+    display: flex;
+    align-items: center;
+    border-radius: 1000rem;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    width: 200px;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.uiTemplate-btn button img{
+    filter: grayscale(1);
+}

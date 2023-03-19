@@ -9,6 +9,7 @@ import GetStarted from './component/GetStarted';
 import { NavBar } from './component/NavBar';
 import PoweredWithReact from './component/PoweredWithReact';
 import ReactDiagram from './component/ReactDiagram';
+import UITemplate from './component/UITemplate';
 import WhyAtomize from './component/WhyAtomize';
 
 
@@ -80,6 +81,9 @@ function App() {
             return <AboveUITemplate boldCharacter={obj.boldChar} paragraph={obj.para} key={obj.id}/>
           })
           }
+        </section>
+        <section id="uiTemplate">
+          <UITemplate />
         </section>
       </main>
     </div>
