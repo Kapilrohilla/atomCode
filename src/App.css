@@ -73,3 +73,8 @@ h2.secondHeading{
     column-gap: 20px;
     grid-template-columns: repeat(auto-fit,minMax(200px,1fr));
 }
+footer{
+    display: block;
+    padding: 4rem;
+    margin-block: 4rem;
+}

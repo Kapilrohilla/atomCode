@@ -5,6 +5,7 @@ import AboveUITemplate from './component/AboveUITemplate';
 import BoxContainer from './component/BoxContainer';
 import Code from './component/Code';
 import DdCard from './component/ddCard';
+import Footer from './component/Footer';
 import GetStarted from './component/GetStarted';
 import { NavBar } from './component/NavBar';
 import PoweredWithReact from './component/PoweredWithReact';
@@ -86,6 +87,9 @@ function App() {
           <UITemplate />
         </section>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

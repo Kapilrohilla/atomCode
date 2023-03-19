@@ -1,0 +1,38 @@
+.anchors{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.anchor-column h6{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+}
+.anchor-column p{
+    margin-bottom: 1rem;
+}
+.anchor-column p a{
+    color: rgb(80, 82, 86);
+    text-decoration: none;
+}
+.developer{
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+    flex-direction: column;
+}
+.social{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-block: 10px;
+}
+.social li{
+    border: 1px dotted rgb(80, 82, 86);
+    padding: 2px 3px;
+}
+.social li a{
+    text-decoration: none;
+    color: black;
+}
