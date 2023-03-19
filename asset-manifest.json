@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kapilrohilla.github.io/atomCode/static/css/main.0cffcba0.css",
-    "main.js": "/kapilrohilla.github.io/atomCode/static/js/main.f7189e90.js",
-    "static/js/787.4124aa9b.chunk.js": "/kapilrohilla.github.io/atomCode/static/js/787.4124aa9b.chunk.js",
-    "index.html": "/kapilrohilla.github.io/atomCode/index.html",
-    "main.0cffcba0.css.map": "/kapilrohilla.github.io/atomCode/static/css/main.0cffcba0.css.map",
-    "main.f7189e90.js.map": "/kapilrohilla.github.io/atomCode/static/js/main.f7189e90.js.map",
-    "787.4124aa9b.chunk.js.map": "/kapilrohilla.github.io/atomCode/static/js/787.4124aa9b.chunk.js.map"
+    "main.css": "/atomCode/static/css/main.0cffcba0.css",
+    "main.js": "/atomCode/static/js/main.0f3a78d9.js",
+    "static/js/787.4124aa9b.chunk.js": "/atomCode/static/js/787.4124aa9b.chunk.js",
+    "index.html": "/atomCode/index.html",
+    "main.0cffcba0.css.map": "/atomCode/static/css/main.0cffcba0.css.map",
+    "main.0f3a78d9.js.map": "/atomCode/static/js/main.0f3a78d9.js.map",
+    "787.4124aa9b.chunk.js.map": "/atomCode/static/js/787.4124aa9b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0cffcba0.css",
-    "static/js/main.f7189e90.js"
+    "static/js/main.0f3a78d9.js"
   ]
 }
