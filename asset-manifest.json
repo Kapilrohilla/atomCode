@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kapilrohilla.github.io/atomCode/static/css/main.9e0cae7b.css",
+    "main.js": "/kapilrohilla.github.io/atomCode/static/js/main.f7189e90.js",
+    "static/js/787.4124aa9b.chunk.js": "/kapilrohilla.github.io/atomCode/static/js/787.4124aa9b.chunk.js",
+    "index.html": "/kapilrohilla.github.io/atomCode/index.html",
+    "main.9e0cae7b.css.map": "/kapilrohilla.github.io/atomCode/static/css/main.9e0cae7b.css.map",
+    "main.f7189e90.js.map": "/kapilrohilla.github.io/atomCode/static/js/main.f7189e90.js.map",
+    "787.4124aa9b.chunk.js.map": "/kapilrohilla.github.io/atomCode/static/js/787.4124aa9b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e0cae7b.css",
+    "static/js/main.f7189e90.js"
+  ]
+}
