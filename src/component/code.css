@@ -24,7 +24,7 @@
     word-wrap: break-word;
 }
 #codeEditor code {
-    color: #c6c64b
+    color: #15ab6a;
 }
 #codeEditor code::selection{
     background-color: rgb(199, 56, 4);
@@ -47,7 +47,7 @@
     position: absolute;
     z-index: 50;
     right: 80px;
-    animation: moveup 2s linear infinite;
+    animation: moveup 6s linear infinite;
 }
 @keyframes moveup {
     0%{
