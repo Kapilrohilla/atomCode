@@ -1,0 +1,79 @@
+.codeContainer{
+    width: 100%;
+    padding-block: 20px;
+    display: flex;
+    position: relative;
+    height: 600px;
+    overflow-y: hidden;
+}
+
+#codeEditor{
+    width: 100%;
+    max-width: 1024px;
+    height: 100%;
+    padding: 2rem 2rem;
+    background-color: #07090a;
+    border-radius: 20px;
+    color: white;
+    z-index: 3;
+    overflow:hidden;
+}
+#codeEditor pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+#codeEditor code {
+    color: #c6c64b
+}
+#codeEditor code::selection{
+    background-color: rgb(199, 56, 4);
+    color: #000;
+}
+.forRelative{
+    position: relative;
+}
+.forAbsolute{
+    position: relative;
+    overflow-y: hidden;
+}
+.animation{
+    width: fit-content;
+    height: 100%;
+    width: 280px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: absolute;
+    z-index: 50;
+    right: 80px;
+    animation: moveup 2s linear infinite;
+}
+@keyframes moveup {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-50%);
+    }
+}
+@media screen and (max-width: 800px){
+    #codeEditor{
+        padding: 1rem 0rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .codeContainer{
+        flex-direction: column;
+        height:min-content;
+    }
+    .forRelative{
+        height: 500px;
+        position: unset;
+    }
+    .animation{
+        position: unset;
+        width: 100%;
+    }
+
+}

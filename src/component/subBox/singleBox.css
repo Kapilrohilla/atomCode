@@ -7,8 +7,6 @@
 .singleProfileBox{
     width: 19.5rem;
     height: 20rem;
-    border-top: rgba(8, 11, 14, 0.06) 1px solid;
-    box-shadow: rgba(8, 11, 14, 0.06) 0px 0px 1px 0px, rgba(8, 11, 14, 0.1) 0px 16px 16px -1px;
 }
 
 .icons{

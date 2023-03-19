@@ -7,6 +7,7 @@
     border-bottom: 1px solid rgba(2, 2, 3, 0.06);
     box-shadow: rgba(8, 11, 14, 0.06) 0px 0px 1px 0px, rgba(8, 11, 14, 0.1) 0px 16px 16px -1px;
     border-radius: 0.7rem;
+    background-color: #fff;
 }
 
 .profileLeft{
@@ -51,6 +52,10 @@
     align-items:  space-between;
     flex-direction: column;
     height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    border-top: rgba(8, 11, 14, 0.06) 1px solid;
+    box-shadow: rgba(8, 11, 14, 0.06) 0px 0px 1px 0px, rgba(8, 11, 14, 0.1) 0px 16px 16px -1px;
 }
 .imageSection{
     display: flex;
