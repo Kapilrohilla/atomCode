@@ -1,4 +1,4 @@
-.codeContainer{
+.codeContainer {
     width: 100%;
     padding-block: 20px;
     display: flex;
@@ -7,7 +7,7 @@
     overflow-y: hidden;
 }
 
-#codeEditor{
+#codeEditor {
     width: 100%;
     max-width: 1024px;
     height: 100%;
@@ -16,28 +16,34 @@
     border-radius: 20px;
     color: white;
     z-index: 3;
-    overflow:hidden;
+    overflow: scroll;
 }
+
 #codeEditor pre {
     overflow-x: auto;
     white-space: pre-wrap;
     word-wrap: break-word;
 }
+
 #codeEditor code {
     color: #15ab6a;
 }
-#codeEditor code::selection{
+
+#codeEditor code::selection {
     background-color: rgb(199, 56, 4);
     color: #000;
 }
-.forRelative{
+
+.forRelative {
     position: relative;
 }
-.forAbsolute{
+
+.forAbsolute {
     position: relative;
     overflow-y: hidden;
 }
-.animation{
+
+.animation {
     width: fit-content;
     height: 100%;
     width: 280px;
@@ -47,31 +53,37 @@
     position: absolute;
     z-index: 50;
     right: 80px;
-    animation: moveup 6s linear infinite;
+    animation: moveup 6s ease-in-out infinite;
 }
+
 @keyframes moveup {
-    0%{
+    0% {
         transform: translateY(0);
     }
-    100%{
+
+    100% {
         transform: translateY(-50%);
     }
 }
-@media screen and (max-width: 800px){
-    #codeEditor{
+
+@media screen and (max-width: 800px) {
+    #codeEditor {
         padding: 1rem 0rem;
     }
 }
-@media screen and (max-width: 600px){
-    .codeContainer{
+
+@media screen and (max-width: 600px) {
+    .codeContainer {
         flex-direction: column;
-        height:min-content;
+        height: min-content;
     }
-    .forRelative{
+
+    .forRelative {
         height: 500px;
         position: unset;
     }
-    .animation{
+
+    .animation {
         position: unset;
         width: 100%;
     }
