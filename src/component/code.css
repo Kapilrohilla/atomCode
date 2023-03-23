@@ -29,11 +29,6 @@
     color: #15ab6a;
 }
 
-#codeEditor code::selection {
-    background-color: rgb(199, 56, 4);
-    color: #000;
-}
-
 .forRelative {
     position: relative;
 }
