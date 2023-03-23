@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/atomCode/static/css/main.0cffcba0.css",
-    "main.js": "/atomCode/static/js/main.0f3a78d9.js",
+    "main.css": "/atomCode/static/css/main.0c8c2436.css",
+    "main.js": "/atomCode/static/js/main.484ec078.js",
     "static/js/787.4124aa9b.chunk.js": "/atomCode/static/js/787.4124aa9b.chunk.js",
     "index.html": "/atomCode/index.html",
-    "main.0cffcba0.css.map": "/atomCode/static/css/main.0cffcba0.css.map",
-    "main.0f3a78d9.js.map": "/atomCode/static/js/main.0f3a78d9.js.map",
+    "main.0c8c2436.css.map": "/atomCode/static/css/main.0c8c2436.css.map",
+    "main.484ec078.js.map": "/atomCode/static/js/main.484ec078.js.map",
     "787.4124aa9b.chunk.js.map": "/atomCode/static/js/787.4124aa9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cffcba0.css",
-    "static/js/main.0f3a78d9.js"
+    "static/css/main.0c8c2436.css",
+    "static/js/main.484ec078.js"
   ]
 }
